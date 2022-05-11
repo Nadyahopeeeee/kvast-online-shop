@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #404040;
+    background-color: white;
+    font-weight: normal;
+}
+
+.header-top{
+    background-color: #363636;
+    color: white;
+}
+
+.main-nav {
+    list-style: none;
+}
+
+.main-nav li {
+    text-transform: uppercase;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: white;
+    border-top: solid 1px rgba(255, 255, 255, 0.3);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+}
+
+.main-nav a:hover{
+    color: #ffcb78;
+    border-bottom: solid 1px rgba(255, 255, 255, 1);
+}
+
+.main-nav a:active{
+    color: #cea35f;
+    border-bottom: solid 1px rgba(255, 255, 255, 1);
+}
+
+ 
+
+.btn {
+    text-decoration: none;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #834700;
+}
+
+.btn:hover{
+    background-color: #6a3900;
+}
+
+.btn:active{
+    color: #92755c;
+    background-color: #6a3900;
+}
+
+.news a {
+    text-decoration: none;
+    color: white;
+    background-color: #834700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.news a:hover {
+    background-color: #6a3900;
+}
+
+.news a:active {
+    color: #92755c;
+    background-color: #6a3900;
+}
+
+.promo {
+    font-family: "Arial", sans-serif;
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+}
+
+h2, .news h3{
+    font-family: "Arial", sans-serif;
+    color: black;
+    font-size: 40px;
+    line-height: 61px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.news-card-alc td{
+    font-family: "Arial", sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 41px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.news-card-btns b {
+    font-family: "Arial", sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.benefits ul{
+    list-style: none;
+}
+
+.benefit-item{
+    border-left: 1px solid #f6c474;
+}
+
+.benefit-item:first-child{
+    border-left: none;
+}
+
+.benefit-title{
+    font-family: "Arial", sans-serif;
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
